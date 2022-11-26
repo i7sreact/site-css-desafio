@@ -1,0 +1,125 @@
+@import "reset.css";
+
+body {
+	background: #000000; 
+	color: #FFFFFF;
+	text-align:center;
+}
+
+.banner{
+	
+	background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+	background-repeat: no-repeat;
+	height: 550px;
+	margin: 0 auto 24px;
+	border-bottom: solid 2px #2296CC;
+}
+
+.banner .banner-content h1{
+	color: #2296CC;
+	font-size: 28px;
+	padding: 16px;
+	margin: 0 auto;
+}
+
+.banner .banner-content p{
+	font-size: 18px;
+	width: 600px;
+	padding: 16px;
+	margin: 0 auto;
+}
+
+.banner .banner-content button{
+	width: 300px;
+	height: 60px;
+	color: #2296CC;
+	background-color: transparent;
+	font-size: 18px;
+	border: 2px;
+	border-style: solid;
+	border-color: #2296CC;
+	border-radius: 5%;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#course-content p{
+	width: 1000px;
+	font-size: 24px;
+	margin: 0 auto 20px;
+}
+
+.module{
+	width: 500px;
+	height: 60px;
+	background-color: #252525;
+	border: 2px;
+	border-style: solid;
+	border-color: #2296CC;
+	border-radius: 150px;
+	text-align: center;
+	padding: 20px;
+	box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+	margin: 0 auto 25px;
+}
+
+.module span{
+	color: #33A8DB;
+}
+
+#transform-world{
+	height: 500px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: #2296CC;
+	background-size: cover;
+	background-image: url(../images/woman-code.png);
+	background-attachment: fixed;
+}
+
+#transform-world p{
+	text-transform: lowercase;
+	text-align: left;
+	font-weight: 600;
+	font-size: 32px;
+	text-shadow: 1px 2px #2296CC;
+	padding: 32px;
+	margin: 20px 15px 20px 15px;
+	width: 300px
+}
+
+#professional-challenges p{
+	width: 1200px;
+	font-size: 24px;
+	margin: 0 auto 20px;
+}
+
+h2{
+	text-align: center;
+	padding: 18px;
+	width: 600px;
+	margin: 24px;
+	font-size: 32px;
+	color: #2296CC;
+	margin: 0 auto 20px;
+}
+
+footer{
+	height: 150px;
+	border-top: solid 5px;
+	border-color: #2296CC;
+	background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+	padding: 24px
+}
+
+footer p{
+	padding: 8px;
+	font: 14px;
+	margin: 5px
+}
+
+footer a{
+	color: #2296CC;
+	font: 14px;
+}
